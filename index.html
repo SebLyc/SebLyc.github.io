@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blur and Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <img id="mainImage" src="zdjecie.png" alt="Zdjęcie">
+      <div class="menu">
+        <a href="#">O mnie</a>
+        <a href="#">Projekty</a>
+        <a href="#">Wiedza</a>
+        <a href="#">Kontakt</a>
+      </div>
+      <div class="about-text-container" id="aboutTextContainer">
+        <div class="about-text" id="aboutText">
+          <h2>O mnie</h2>
+          <p>&nbsp;Jestem studentem II stopnia Informatyki w specjalności Cyberbezpieczeństwo na Politechnice Poznańskiej. Studia są prowadzone w języku angielskim. 
+            <br>&nbsp;W trakcie swojej edukacji miałem okazję uczestniczyć w wielu projektach zespołowych, które umożliwiły mi rozwijanie umiejętności pracy w grupie oraz zdobywanie wiedzy z różnych obszarów informatyki. 
+            <br>&nbsp;Moim celem jest nieustanne doskonalenie się, dlatego regularnie uczestniczę w warsztatach i konferencjach. </p>
+          <a href="#" onclick="backButtonFromAbout()">Powrót</a>
+          <!-- Dodaj dowolny tekst tutaj, który ma być wyświetlony na powierzchni zdjęcia -->
+        </div>
+      </div>
+      <div class="contact-text-container" id="contactTextContainer">
+        <div class="contact-text" id="contactText">
+          <h2>Dane kontaktowe:</h2>
+          <p>sebastian.lyczkowski@interia.eu <br> </p>
+          <p></p>
+          <a href="#" onclick="backButtonFromContact()">Powrót</a>
+          <!-- Dodaj dowolny tekst tutaj, który ma być wyświetlony na powierzchni zdjęcia -->
+        </div>
+      </div>
+      <div class="knowledge-text-container" id="knowledgeTextContainer">
+        <div class="knowledge-text" id="knowledgeText">
+          <h2>Doświadczenie:</h2>
+          <p>&nbsp; Podczas mojej edukacji akademickiej zgłębiałem nie tylko języki programowania, ale także różnorodne aspekty praktycznych zastosowań. W ramach projektów grupowych eksplorowałem tworzenie efektywnych algorytmów w języku C++, co poszerzyło moje umiejętności analizy i optymalizacji kodu. W obszarze analizy danych wykorzystywałem języki R, Octave i Matlab do modelowania matematycznego oraz wizualizacji wyników.
+            <br>
+            &nbsp; Przez okres studiów miałem i mam do czynienia z programowaniem w językach takich jak C++, R,  Matlab, Java, C#, Lua, VBA i PowerShell. </p>
+          <a href="#" onclick="backButtonFromKnowledge()">Powrót</a>
+          <!-- Dodaj dowolny tekst tutaj, który ma być wyświetlony na powierzchni zdjęcia -->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
