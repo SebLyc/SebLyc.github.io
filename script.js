@@ -78,8 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
           addTerminalLink(
             document.querySelector(".terminal"),
             "Projekt  w języku Python:    ",
-            "Emulator parkometru [WIP]",
-            "https://www.wp.pl"
+            "Emulator parkometru",
+            "https://github.com/SebLyc/Emulator-Parkometru"
           );
           addTerminalLink(
             document.querySelector(".terminal"),
