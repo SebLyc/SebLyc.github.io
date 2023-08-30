@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", () => {
           addTerminalLink(
             document.querySelector(".terminal"),
             "Projekt w JavaScript:        ",
-            "Kalkulator z włąsną logią",
-            "https://www.onet.pl"
+            "Kalkulator z włąsną analizą wyrażeń",
+            "https://github.com/SebLyc/Calc-JS"
           );
           addBackToMenuButton();
           
