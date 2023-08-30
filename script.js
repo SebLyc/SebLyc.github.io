@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
           addTerminalLink(
             document.querySelector(".terminal"),
             "Projekt w JavaScript:        ",
-            "Kalkulator z włąsną analizą wyrażeń",
+            "Analizator wyrażeń",
             "https://github.com/SebLyc/Calc-JS"
           );
           addBackToMenuButton();
