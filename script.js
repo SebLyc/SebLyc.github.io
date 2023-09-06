@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.querySelector(".terminal"),
             "Projekty w języku Python:    ",
             "Algebra Liniowa",
-            "https://www.interia.pl"
+            "https://github.com/SebLyc/Linear-Algebra-Python"
           );
           addTerminalLink(
             document.querySelector(".terminal"),
